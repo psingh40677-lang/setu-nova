@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs><linearGradient id="bg" x2="0" y2="1"><stop stop-color="#e8e6cf"/><stop offset="1" stop-color="#c4c9a5"/></linearGradient><linearGradient id="basket" x2="0" y2="1"><stop stop-color="#c6914d"/><stop offset="1" stop-color="#86572f"/></linearGradient></defs>
+  <rect width="800" height="600" fill="url(#bg)"/><circle cx="638" cy="118" r="49" fill="#e3b866"/>
+  <path d="M176 312Q400 254 624 312L573 478Q400 524 227 478Z" fill="url(#basket)" stroke="#79512f" stroke-width="12"/>
+  <path d="M200 331Q400 382 600 331M214 378Q400 427 586 378M228 424Q400 468 572 424" fill="none" stroke="#e4bd7a" stroke-width="14"/>
+  <g fill="#b73f35" stroke="#813c30" stroke-width="7"><circle cx="297" cy="258" r="67"/><circle cx="409" cy="235" r="74"/><circle cx="510" cy="268" r="65"/></g>
+  <g fill="#61804b"><path d="M297 186q-35-57 5-74 30 42-5 74M405 163q-9-58 36-66 13 48-36 66M510 204q12-55 54-45 2 48-54 45"/></g>
+  <path d="M348 246q40-35 75-5M450 282q35-25 58-4" fill="none" stroke="#e98a68" stroke-width="8" opacity=".65"/>
+</svg>

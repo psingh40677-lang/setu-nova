@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs><linearGradient id="bg" x2="0" y2="1"><stop stop-color="#eee5d5"/><stop offset="1" stop-color="#d1bea0"/></linearGradient><linearGradient id="bead" x2="1"><stop stop-color="#8d382e"/><stop offset=".5" stop-color="#d07a49"/><stop offset="1" stop-color="#71352e"/></linearGradient></defs>
+  <rect width="800" height="600" fill="url(#bg)"/><path d="M206 102Q400 449 594 102" fill="none" stroke="#755239" stroke-width="12"/>
+  <g fill="url(#bead)" stroke="#f2d198" stroke-width="5"><circle cx="245" cy="190" r="22"/><circle cx="287" cy="250" r="20"/><circle cx="333" cy="307" r="23"/><circle cx="400" cy="346" r="27"/><circle cx="467" cy="307" r="23"/><circle cx="513" cy="250" r="20"/><circle cx="555" cy="190" r="22"/></g>
+  <path d="M400 374L330 460 400 529 470 460Z" fill="#345447" stroke="#a66a3e" stroke-width="13"/>
+  <path d="M400 391V507M350 459H450M365 424L435 494M435 424L365 494" stroke="#e8bd71" stroke-width="8"/>
+  <path d="M232 185L191 282M568 185L609 282" stroke="#744a31" stroke-width="10"/>
+  <circle cx="187" cy="295" r="22" fill="#d69b4d"/><circle cx="613" cy="295" r="22" fill="#d69b4d"/>
+</svg>

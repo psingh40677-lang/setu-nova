@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs><linearGradient id="bg" x2="0" y2="1"><stop stop-color="#f3ead8"/><stop offset="1" stop-color="#ded0b8"/></linearGradient><linearGradient id="bamboo" x2="0" y2="1"><stop stop-color="#c99a54"/><stop offset="1" stop-color="#966331"/></linearGradient></defs>
+  <rect width="800" height="600" fill="url(#bg)"/><ellipse cx="400" cy="492" rx="218" ry="37" fill="#735638" opacity=".18"/>
+  <path d="M245 245Q400 156 555 245L520 441Q400 490 280 441Z" fill="url(#bamboo)" stroke="#76502c" stroke-width="13"/>
+  <path d="M254 252Q400 332 546 252M266 298Q400 375 534 298M277 348Q400 416 523 348M287 397Q400 454 513 397" fill="none" stroke="#e2bd79" stroke-width="17"/>
+  <path d="M300 222Q400 83 500 222" fill="none" stroke="#85552b" stroke-width="24"/><path d="M305 220Q400 101 495 220" fill="none" stroke="#d5a95f" stroke-width="13"/>
+  <path d="M285 255L300 439M330 230L340 458M375 215L380 469M420 215L420 469M465 230L460 458M510 255L500 439" stroke="#81552e" stroke-width="10" opacity=".78"/>
+  <path d="M250 247Q400 316 550 247" fill="none" stroke="#f0d18f" stroke-width="13"/>
+</svg>

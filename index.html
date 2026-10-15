@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Setu Nova is a bilingual rural marketplace connecting sellers, buyers, and village facilitators across India."
+    />
+    <title>Setu Nova</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav-wrap">
+        <div class="brand" aria-label="Setu Nova home">
+          <div class="brand-mark">S</div>
+          <div>
+            <strong>Setu Nova</strong>
+            <small data-i18n="tagline">Village marketplace</small>
+          </div>
+        </div>
+
+        <nav class="nav" aria-label="Main navigation">
+          <a href="#marketplace" data-i18n="navMarketplace">Marketplace</a>
+          <a href="#demand" data-i18n="navDemand">Demand</a>
+          <a href="#sellers" data-i18n="navSellers">Sellers</a>
+          <a href="#admin" data-i18n="navAdmin">Admin</a>
+        </nav>
+
+        <div class="nav-actions">
+          <button class="lang-toggle" id="langToggle" type="button" aria-label="Switch language">
+            <span>हिंदी</span>
+          </button>
+          <a class="primary-btn" href="#cta" data-i18n="ctaSell">Sell products</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <div class="badge" data-i18n="badge">Across India • Marketplace live</div>
+            <h1 data-i18n="heroTitle">The trusted marketplace for rural producers.</h1>
+            <p data-i18n="heroText">
+              Setu Nova helps artisans, farmers, SHGs, and buyers connect directly with better prices,
+              transparent demand, and simple digital tools designed for village growth.
+            </p>
+
+            <div class="cta-row">
+              <a class="primary-btn" href="#marketplace" data-i18n="buyProducts">Buy products</a>
+              <a class="secondary-btn" href="#sellers" data-i18n="sellNow">Sell now</a>
+            </div>
+
+            <ul class="hero-points" aria-label="Key benefits">
+              <li data-i18n="point1">Simple mobile-first experience</li>
+              <li data-i18n="point2">Hindi and English support</li>
+              <li data-i18n="point3">Direct buyer-seller trust</li>
+            </ul>
+          </div>
+
+          <div class="hero-panel" aria-label="Marketplace dashboard preview">
+            <div class="panel-header">
+              <span data-i18n="panelTitle">Today’s market</span>
+              <span class="status-pill" data-i18n="liveStatus">Live</span>
+            </div>
+
+            <div class="stats-grid">
+              <div class="mini-stat">
+                <strong>1,280</strong>
+                <span data-i18n="statActiveSellers">Active sellers</span>
+              </div>
+              <div class="mini-stat">
+                <strong>₹4.8L</strong>
+                <span data-i18n="statMonthlySales">Monthly sales</span>
+              </div>
+              <div class="mini-stat">
+                <strong>96%</strong>
+                <span data-i18n="statOnTime">On-time dispatch</span>
+              </div>
+              <div class="mini-stat">
+                <strong>42</strong>
+                <span data-i18n="statDemandRequests">Demand requests</span>
+              </div>
+            </div>
+
+            <div class="trend-box">
+              <div>
+                <small data-i18n="topCategory">Top growing category</small>
+                <h3 data-i18n="topCategoryName">Forest produce</h3>
+              </div>
+              <span class="trend-value">+18.4%</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="quick-actions section-pad">
+        <div class="container">
+          <div class="section-header">
+            <p class="eyebrow" data-i18n="quickTitle">Start here</p>
+            <h2 data-i18n="quickHeading">Simple actions for every villager</h2>
+          </div>
+
+          <div class="action-grid">
+            <button class="action-card" type="button">
+              <span class="icon">🛍️</span>
+              <strong data-i18n="actionSell">Sell products</strong>
+            </button>
+            <button class="action-card" type="button">
+              <span class="icon">🛒</span>
+              <strong data-i18n="actionBuy">Buy products</strong>
+            </button>
+            <button class="action-card" type="button">
+              <span class="icon">📣</span>
+              <strong data-i18n="actionDemand">Market demand</strong>
+            </button>
+            <button class="action-card" type="button">
+              <span class="icon">📦</span>
+              <strong data-i18n="actionOrders">My orders</strong>
+            </button>
+            <button class="action-card" type="button">
+              <span class="icon">📈</span>
+              <strong data-i18n="actionPrices">Market prices</strong>
+            </button>
+            <button class="action-card" type="button">
+              <span class="icon">💰</span>
+              <strong data-i18n="actionEarnings">My earnings</strong>
+            </button>
+            <button class="action-card" type="button">
+              <span class="icon">🆘</span>
+              <strong data-i18n="actionHelp">Help</strong>
+            </button>
+            <button class="action-card" type="button">
+              <span class="icon">🌐</span>
+              <strong data-i18n="actionLanguage">Change language</strong>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section id="marketplace" class="marketplace section-pad">
+        <div class="container">
+          <div class="section-header split">
+            <div>
+              <p class="eyebrow" data-i18n="catalogueTitle">Marketplace</p>
+              <h2 data-i18n="catalogueHeading">Rural products worth bringing to market</h2>
+            </div>
+            <div class="search-wrap">
+              <input id="productSearch" type="search" placeholder="Search products" data-i18n-placeholder="searchPlaceholder" />
+            </div>
+          </div>
+
+          <div class="filter-row" id="categoryFilters" aria-label="Product categories"></div>
+
+          <div id="productGrid" class="product-grid" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section id="demand" class="demand section-pad">
+        <div class="container">
+          <div class="section-header">
+            <p class="eyebrow" data-i18n="demandTitle">Market demand</p>
+            <h2 data-i18n="demandHeading">Buyer requests and quotations</h2>
+          </div>
+
+          <div id="demandList" class="demand-list"></div>
+        </div>
+      </section>
+
+      <section id="sellers" class="sellers section-pad">
+        <div class="container">
+          <div class="section-header">
+            <p class="eyebrow" data-i18n="sellerTitle">Seller dashboard</p>
+            <h2 data-i18n="sellerHeading">Track orders, inventory, and earnings</h2>
+          </div>
+
+          <div class="metrics-grid">
+            <article class="metric-card">
+              <span data-i18n="metricActive">Active products</span>
+              <strong>148</strong>
+              <small data-i18n="metricNote">Across 6 villages</small>
+            </article>
+            <article class="metric-card">
+              <span data-i18n="metricDraft">Draft products</span>
+              <strong>23</strong>
+              <small data-i18n="metricNote2">Pending photo uploads</small>
+            </article>
+            <article class="metric-card">
+              <span data-i18n="metricOrders">Pending orders</span>
+              <strong>18</strong>
+              <small data-i18n="metricNote3">7 require dispatch</small>
+            </article>
+            <article class="metric-card accent">
+              <span data-i18n="metricEarnings">Confirmed earnings</span>
+              <strong>₹68,420</strong>
+              <small data-i18n="metricNote4">This month</small>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="admin" class="admin section-pad">
+        <div class="container">
+          <div class="section-header">
+            <p class="eyebrow" data-i18n="adminTitle">Administration</p>
+            <h2 data-i18n="adminHeading">Protected tools for facilitators and admins</h2>
+          </div>
+
+          <div class="admin-grid">
+            <div class="admin-card">
+              <h3 data-i18n="adminVerify">Seller verification</h3>
+              <p data-i18n="adminVerifyText">Approve profiles, review compliance checks, and manage village-level onboarding.</p>
+            </div>
+            <div class="admin-card">
+              <h3 data-i18n="adminModeration">Product moderation</h3>
+              <p data-i18n="adminModerationText">Flag restricted commodities, review quality, and maintain category standards.</p>
+            </div>
+            <div class="admin-card">
+              <h3 data-i18n="adminPayments">Payments and refunds</h3>
+              <p data-i18n="adminPaymentsText">Track settlements, disputes, and secure test payments in sandbox mode.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="cta" class="cta section-pad">
+        <div class="container cta-box">
+          <div>
+            <p class="eyebrow" data-i18n="ctaTitle">Ready to mobilize your village market?</p>
+            <h2 data-i18n="ctaHeading">Create a trusted commerce network from field to final delivery.</h2>
+          </div>
+          <button class="primary-btn" type="button" data-i18n="ctaAction">Request a demo</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-wrap">
+        <div>
+          <strong>Setu Nova</strong>
+          <p data-i18n="footerText">Built for rural sellers, buyers, and village facilitators across India.</p>
+        </div>
+        <div class="footer-links">
+          <span>Serving producers and buyers across India</span>
+          <span>support@setunova.ai</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

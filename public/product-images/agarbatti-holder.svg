@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs><linearGradient id="bg" x2="0" y2="1"><stop stop-color="#efe6d7"/><stop offset="1" stop-color="#d6c6ad"/></linearGradient><linearGradient id="clay" x2="0" y2="1"><stop stop-color="#c88359"/><stop offset="1" stop-color="#874731"/></linearGradient></defs>
+  <rect width="800" height="600" fill="url(#bg)"/><ellipse cx="399" cy="461" rx="248" ry="45" fill="url(#clay)" stroke="#72402f" stroke-width="12"/>
+  <path d="M194 441Q400 495 606 441L573 474Q400 514 227 474Z" fill="#7d412f"/>
+  <path d="M241 417Q256 369 292 346L327 371 354 334 386 367 418 329 449 370 482 342 520 380 557 414Z" fill="#d18b5c" stroke="#75412e" stroke-width="9"/>
+  <path d="M400 336V155" stroke="#613c2b" stroke-width="8"/><path d="M399 152Q366 125 394 98Q421 126 399 152Z" fill="#f0a845"/>
+  <path d="M369 236Q329 216 346 184M432 270Q473 248 455 215" fill="none" stroke="#b0b3a0" stroke-width="8" stroke-linecap="round" opacity=".8"/>
+  <circle cx="292" cy="413" r="9" fill="#efd2a0"/><circle cx="508" cy="413" r="9" fill="#efd2a0"/>
+</svg>
